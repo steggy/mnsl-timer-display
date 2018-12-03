@@ -1,0 +1,19 @@
+<style>
+ Read Header
+ {
+         text-align: center;
+         }
+         </style>
+
+         <!--<div id="headmessagetext">-->
+         <?php
+         $file="header.txt";
+         $myfile = fopen($file, "r") or die("Unable to open file!");
+         while(!feof($myfile)) { 
+                 //echo fgets($myfile) ." <br> ";
+                 echo fgets($myfile);
+                 }
+                 fclose($myfile);
+                 ?>
+                 </div>
+
