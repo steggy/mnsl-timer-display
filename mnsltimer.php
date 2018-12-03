@@ -23,7 +23,7 @@ function refreshshowheader(){
 {
 width:100%;
 height:20%;
-font-size:32px;
+font-size:42px;
 background-color:blue;
 color:yellow;
 min-height:20%;
@@ -47,7 +47,7 @@ body
 
 #main
 {
-height:60%;
+height:70%;
 }
 #main button
 {
@@ -57,9 +57,13 @@ font-size:2.5em;
 #bottom
 {
 background-color:red;
-height:20%;
+height:10%;
 }
-
+.bigbut
+{
+height:60px;
+font-size:2.5em;
+}
 </style>
 </head>
 <body>
@@ -68,11 +72,10 @@ Event and time goes here
 </pre></div>
 
 <div id="main">
-BUTTONS<br>
-<button>PUSH THIS</button>
+A list of shooters 
 </div>
 <div id="bottom">
-<button style="heght:30px;font-size:24px;"onclick="location='http://localhost/mnsltimer.php'">RELOAD</button>
+<button class="bigbut" onclick="location='http://localhost/mnsltimer.php'">RELOAD</button>
 </div>
 </body>
 </html>
