@@ -27,11 +27,17 @@ body
 #main
 {
 	height:70%;
+	display:block;
 }
 #main button
 {
 	height:60px;
 	font-size:2.5em;
+}
+#mainmenu
+{
+	height:70%;
+	display:none;
 }
 #bottom
 {
