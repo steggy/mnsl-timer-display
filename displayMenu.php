@@ -1,7 +1,6 @@
 <?php
 if (isset($_POST["what"])) {
 	sendcmd($_POST["what"]);
-	
 }
 
 function sendcmd($cmd)
@@ -62,9 +61,6 @@ function sendcmd($cmd)
                     });
                 }
 
-            function callSocketII(el){ 
-		$.get('socketsend.php ' + el)                                     
-}
 </script>
 
 
